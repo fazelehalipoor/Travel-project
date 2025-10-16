@@ -7,6 +7,10 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   text-align: center;
   color: #fff;
@@ -36,6 +40,46 @@ header h2 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 64px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 90px;
+  margin-top: 10px;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.9;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #FC6F9B;
 }
 @media (max-width: 900px) {
   header {
